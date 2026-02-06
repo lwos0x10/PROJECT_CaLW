@@ -1,0 +1,44 @@
+.about-page {
+  width: 100%;
+}
+
+.about-title {
+  font-family: 'Daydream';
+  /*min-height: 100vh; */ /*กำหนดระยะระหว่าง title กับ about us*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* About section */
+.about-content {
+  text-align: center;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person-card {
+  background: #020617;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.person-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+

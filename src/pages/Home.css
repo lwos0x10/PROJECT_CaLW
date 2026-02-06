@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Daydream';
+  src: url('../assets/fonts/Daydream.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StarlightRomance';
+  src: url('../assets/fonts/StarlightRomance.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Daydream';
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.5rem;
+  line-height: 0.1;
+  min-height: 15vh;
+}
+
+p.header {
+  font-family: 'StarlightRomance';
+  font-size: 4rem;
+  margin-top: -10px;
+}
+
+.enter-button a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-family: 'daydream';
+  text-decoration: none;
+  border-radius: 6px;
+}
+
